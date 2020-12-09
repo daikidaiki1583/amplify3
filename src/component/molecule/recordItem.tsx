@@ -8,7 +8,6 @@ type Props = {
     deleteRecord: (record: Record) => void;
 }
 
-
 const RecordItem: FC<Props> = ({record,deleteRecord}) => {
     return (
             <Table.Row>
