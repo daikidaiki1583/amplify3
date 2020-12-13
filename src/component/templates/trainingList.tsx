@@ -2,7 +2,7 @@ import React , { FC , useState,useMemo} from 'react';
 import Training from '../organisms/training';
 import { TrainingType } from '../organisms/training';
 import { useForm } from 'react-hook-form';
-import { calculateToday } from '../today/today';
+import { calculateToday } from '../data/today';
 import './trainingList.scss';
 
 const TrainingList: FC = () => {

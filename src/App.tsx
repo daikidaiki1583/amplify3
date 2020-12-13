@@ -1,22 +1,28 @@
 import React from 'react';
 import './App.css';
-import { Route } from 'react-router';
-import Home from './component/pages/home'
-import TrainingList from './component/templates/trainingList';
+import { Switch,Route } from 'react-router';
+
+import Header from './component/templates/header';
+import Home from './component/pages/home';
 import ManageAuth from './component/templates/auth';
+import TrainingList from './component/templates/trainingList';
 
 function App() {
   return (
-    <>
-      <Route path='/'>
+   <>
+   <Header/>
+   <Switch>
+      <Route exact path='/'>
           <Home/>
       </Route> 
-      <Route path='trainglist'>
-        <TrainingList/>
+      <Route path='/auth'>
+          <ManageAuth/>
       </Route>
-      
-
-    </>
+      <Route path='/trainglist'>
+          <TrainingList/>
+      </Route>
+   </Switch> 
+   </>   
   );
 }
 

@@ -1,0 +1,14 @@
+header{
+    height: 50px;
+    border-bottom:1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    ul{
+        display: flex;
+        align-items: center;
+        margin: 0 40px;
+    }
+}

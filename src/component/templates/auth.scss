@@ -1,0 +1,48 @@
+.page-auth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    .auth{
+        display: grid;
+        text-align: center;
+        grid-template-columns: 50% 50%;
+        height: 50%;
+        width: 80%;
+
+        .inputform{
+            .inner{
+                display: flex;
+                flex-direction: column;
+
+                input,button{
+                    margin:8px auto;
+                    width: 80%;
+                    padding: 8px;
+                    border:1px solid gray;
+                    border-radius: 5px;
+                }
+
+                .success{
+                    border:solid 1px #3cb371;
+                    background-color:#bcffdd ;
+                }
+
+
+                .error{
+                    color: red;
+                }
+            }
+
+            .confirm{
+                padding:40px 0;
+                p{
+                    text-align: left;
+                    width: 80%;
+                    margin: auto;
+                }                
+            }
+        }
+
+    }
+}
