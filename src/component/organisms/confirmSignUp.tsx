@@ -1,7 +1,6 @@
 import React,{ FC, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { Auth } from 'aws-amplify';
-import { useHistory } from 'react-router';
 
 type Props = {
     username: string
