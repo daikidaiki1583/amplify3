@@ -1,10 +1,10 @@
 {
-    "features": {
-      "graphqltransformer": {
-        "addmissingownerfields": true,
-        "validatetypenamereservedwords": true,
-        "useexperimentalpipelinedtransformer": false,
-        "enableiterativegsiupdates": false
-      }
+  "features": {
+    "graphqltransformer": {
+      "addmissingownerfields": true,
+      "validatetypenamereservedwords": true,
+      "useexperimentalpipelinedtransformer": false,
+      "enableiterativegsiupdates": false
     }
   }
+}
